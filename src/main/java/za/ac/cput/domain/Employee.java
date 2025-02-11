@@ -38,6 +38,11 @@ public class Employee {
                 '}';
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     public static class Builder{
         private int employeeNumber;
         private String firstName;
